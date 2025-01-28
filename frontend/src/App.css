@@ -90,10 +90,10 @@ input:checked ~ .checkmark:after {
 
 .task-text {
   flex-grow: 1;
-  word-wrap: break-word; /* Переносит длинные слова */
-  overflow-wrap: break-word; /* Альтернативный вариант для переноса */
-  white-space: normal; /* Позволяет тексту переноситься */
-  max-width: 80%; /* Чтобы текст не заполнял всю ширину */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal; 
+  max-width: 80%;
 }
 
 .completed .task-text {
